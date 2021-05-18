@@ -7,7 +7,7 @@ import com.example.demo.rest.Greeting;
 
 @Service
 public class DemoService {
-	boolean flag = false;
+	boolean flag = true;
 	public Greeting sendGreeting() {
 		Greeting greeting = new Greeting("Hello bro!");
 		
